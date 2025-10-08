@@ -23,6 +23,14 @@ a:hover {
   color: var(--color-light-gray);
 }
 
+p {
+  margin-block: 0;
+}
+
+p:not([class]):not(:last-child) {
+  margin-bottom: 24rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-transform: uppercase;
