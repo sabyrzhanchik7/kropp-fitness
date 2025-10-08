@@ -5,6 +5,7 @@
   column-gap: 20px;
   padding-inline: 32px;
   background-color: var(--color-dark-alternate);
+  min-height: var(--header-height);
 }
 
 .header-logo {
@@ -21,7 +22,7 @@
   display: inline-flex;
   align-items: center;
   column-gap: 7px;
-  height: 90px;
+  height: var(--header-height);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
