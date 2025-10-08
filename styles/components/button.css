@@ -8,6 +8,7 @@
   line-height: 2;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+  text-decoration: none;
   white-space: nowrap;
   background-color: var(--color-light);
   border: none;
@@ -15,6 +16,30 @@
 }
 
 .button:hover {
+  background-color: var(--color-light-gray);
+}
+
+.button.transparent {
+  position: relative;
+  height: var(--input-height);
+  padding-inline: 31px 80px;
+  background-color: transparent;
+  border: var(--border);
+}
+
+.button.transparent::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 100%;
+  aspect-ratio: 1;
+  background: url("../../assets/icons/arrows/arrow-top-right.svg") center/70% no-repeat;
+  border: var(--border);
+  border-radius: 50%;
+}
+
+.button.transparent:hover {
+  color: var(--color-dark);
   background-color: var(--color-light-gray);
 }
 
