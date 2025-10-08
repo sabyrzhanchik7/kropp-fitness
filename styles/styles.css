@@ -5,6 +5,7 @@
 @import './base/utils.css';
 
 @import './layout/header.css';
+@import './layout/banner.css';
 
 @import './components/button.css';
 
