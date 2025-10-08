@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   column-gap: 20px;
+  padding-inline: 32px;
 }
 
 .header-logo {
@@ -11,6 +12,7 @@
 
 .header-menu-list {
   display: flex;
+  flex-wrap: wrap;
   column-gap: 50px;
 }
 
@@ -63,4 +65,40 @@
   height: 1px;
   background-color: currentColor;
   box-shadow: 16px 0 currentColor;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding-top: 20px;
+    padding-inline: 15px;
+  }
+
+  .header-menu {
+    order: 1;
+    flex-basis: 100%;
+  }
+
+  .header-menu-link {
+    height: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding-top: 10px;
+  }
+
+  .header-menu-list {
+    column-gap: 24px;
+  }
+
+  .header-menu-link {
+    height: 32px;
+  }
+
+  .header-actions {
+    column-gap: 15px;
+  }
 }
