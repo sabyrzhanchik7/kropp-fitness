@@ -11,6 +11,9 @@
 }
 
 .header-menu-link {
+  display: inline-flex;
+  align-items: center;
+  height: 90px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
