@@ -5,6 +5,10 @@
   column-gap: 20px;
 }
 
+.header-logo {
+  flex-shrink: 0;
+}
+
 .header-menu-list {
   display: flex;
   column-gap: 50px;
@@ -28,4 +32,9 @@
   height: 5px;
   background-color: currentColor;
   border-radius: 50%;
+}
+
+.header-actions {
+  display: flex;
+  column-gap: 40px;
 }

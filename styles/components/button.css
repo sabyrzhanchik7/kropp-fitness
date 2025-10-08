@@ -8,6 +8,7 @@
   line-height: 2;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+  white-space: nowrap;
   background-color: var(--color-light);
   border: none;
   border-radius: var(--border-radius);
