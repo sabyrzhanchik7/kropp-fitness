@@ -4,6 +4,7 @@
   justify-content: space-between;
   column-gap: 20px;
   padding-inline: 32px;
+  background-color: var(--color-dark-alternate);
 }
 
 .header-logo {
@@ -31,7 +32,7 @@
 .header-menu-link.is-current::after {
   content: '';
   width: 5px;
-  height: 5px;
+  aspect-ratio: 1;
   background-color: currentColor;
   border-radius: 50%;
 }
@@ -47,7 +48,7 @@
   justify-content: center;
   row-gap: 4px;
   width: 40px;
-  height: 40px;
+  aspect-ratio: 1;
   padding-left: 8px;
   color: var(--color-light);
   background-color: transparent;
