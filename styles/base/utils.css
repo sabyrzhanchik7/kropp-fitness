@@ -18,7 +18,7 @@
 }
 
 .title-medium {
-  font-size: 40px;
+  font-size: clamp(20px, 2.08vw, 40px);
   line-height: 1.3;
   color: var(--color-light);
 }
