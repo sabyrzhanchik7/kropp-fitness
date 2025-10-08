@@ -1,0 +1,19 @@
+:root {
+  --color-dark: #000;
+  --color-light: #fff;
+  --color-dark-gray: #404040;
+  --color-light-gray: #c4c4c4;
+
+  --border-radius: 30px;
+  --border: 1px solid var(--color-light);
+
+  --font-family-base: 'Heebo', sans-serif;
+  --font-family-accent: 'Yantramanav', sans-serif;
+
+  --input-height: 54px;
+
+  --container-width: 1300px;
+  --container-padding-x: 15px;
+
+  --transition-duration: 0.2s;
+}
