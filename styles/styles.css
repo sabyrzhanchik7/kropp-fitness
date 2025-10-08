@@ -3,3 +3,7 @@
 @import './base/variables.css';
 @import './base/globals.css';
 @import './base/utils.css';
+
+@import './components/button.css';
+
+@import './layout/header.css';
