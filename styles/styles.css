@@ -10,6 +10,7 @@
 @import './layout/training-types.css';
 @import './layout/join-us.css';
 @import './layout/location.css';
+@import './layout/family.css';
 
 @import './components/button.css';
 @import './components/input.css';
