@@ -1,7 +1,7 @@
 .button {
   display: inline-flex;
-  height: 38px;
   align-items: center;
+  height: 38px;
   padding-inline: 26px;
   font-size: 12px;
   font-weight: 700;
@@ -22,7 +22,9 @@
 .button.transparent {
   position: relative;
   height: var(--input-height);
-  padding-inline: 31px 80px;
+  padding-left: 31px;
+  padding-right: 80px;
+  color: var(--color-light);
   background-color: transparent;
   border: var(--border);
 }
@@ -33,7 +35,7 @@
   right: 0;
   height: 100%;
   aspect-ratio: 1;
-  background: url("../../assets/icons/arrows/arrow-top-right.svg") center/70% no-repeat;
+  background: url('../../assets/icons/arrows/arrow-top-right.svg') center/70% no-repeat;
   border: var(--border);
   border-radius: 50%;
 }

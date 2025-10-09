@@ -8,5 +8,9 @@
 @import './layout/banner.css';
 @import './layout/motivation.css';
 @import './layout/training-types.css';
+@import './layout/join-us.css';
 
 @import './components/button.css';
+@import './components/input.css';
+
+

@@ -4,6 +4,11 @@
   margin-inline: auto;
 }
 
+.container-wide {
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
 .visually-hidden {
   position: absolute !important;
   width: 1px !important;
@@ -20,6 +25,18 @@
 .title-medium {
   font-size: clamp(20px, 2.08vw, 40px);
   line-height: 1.3;
+  color: var(--color-light);
+}
+
+.title-big {
+  font-size: clamp(24px, 3.12vw, 60px);
+}
+
+.section-description {
+  font-size: 20px;
+  line-height: 1.65;
+  text-transform: uppercase;
+  text-align: center;
   color: var(--color-light);
 }
 
@@ -48,4 +65,16 @@
   font-family: var(--font-family-accent);
   color: transparent;
   -webkit-text-stroke: 1px var(--color-dark-gray);
+}
+
+.backdrop-title.centered::after {
+  top: -0.6em;
+  left: 50%;
+  translate: -50% 0;
+}
+
+@media (max-width: 767px) {
+  .section-description {
+    font-size: 16px;
+  }
 }
