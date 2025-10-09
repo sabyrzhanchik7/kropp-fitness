@@ -23,3 +23,24 @@
 .family-image {
   scroll-snap-align: start;
 }
+
+@media (max-width: 1024px) {
+  .family-image {
+    height: 360px;
+  }
+}
+
+@media (max-width: 767px) {
+  .family-image {
+    height: 180px;
+  }
+
+  .family-header {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .family-body {
+    column-gap: 12px;
+  }
+}
