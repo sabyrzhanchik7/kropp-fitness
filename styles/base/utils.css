@@ -72,3 +72,9 @@
   left: 50%;
   translate: -50% 0;
 }
+
+@media (max-width: 767px) {
+  .section-description {
+    font-size: 16px;
+  }
+}

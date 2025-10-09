@@ -100,3 +100,29 @@
 .join-us-form-input {
   max-width: 400px;
 }
+
+@media (max-width: 1024px) {
+  .join-us-body {
+    padding-bottom: 80px;
+  }
+
+  .join-us-title:not(:last-child) {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .join-us-video-play-button {
+    width: 140px;
+  }
+
+  .join-us-title:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .join-us-form-body {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+}
