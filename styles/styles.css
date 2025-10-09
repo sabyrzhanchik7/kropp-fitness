@@ -7,5 +7,6 @@
 @import './layout/header.css';
 @import './layout/banner.css';
 @import './layout/motivation.css';
+@import './layout/training-types.css';
 
 @import './components/button.css';
