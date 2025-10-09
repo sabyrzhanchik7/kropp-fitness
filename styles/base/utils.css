@@ -68,7 +68,7 @@
 }
 
 .backdrop-title.centered::after {
-  top: -0.6em;
+  top: -0.5em;
   left: 50%;
   translate: -50% 0;
 }
